@@ -1,0 +1,6 @@
+[Unit]
+Description=Service to log the load of the system
+[Service]
+ExecStart=/opt/myScripts/load.sh
+[Install]
+WantedBy=default.target

@@ -1,0 +1,6 @@
+[Unit]
+Description=Timer to log the system every minute.
+[Timer]
+OnActiveSec=1min
+[Install]
+WantedBy=timers.target
